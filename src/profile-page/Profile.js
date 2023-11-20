@@ -1,17 +1,16 @@
-import Aside_ from "../components/Aside/Aside";
-import Footer_ from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
-import Main_profile_ from "./Main_profile";
+import MainProfile from "./Main_profile";
 
 
-let Profile_ = () => {
+let Profile = () => {
     return(
         <div>
             <Header />
-            <Main_profile_ />
-            <Footer_ />
+            <MainProfile />
+            <Footer/>
         </div>
     );
 }
 
-export default Profile_;
+export default Profile;

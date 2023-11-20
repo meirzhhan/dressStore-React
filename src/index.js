@@ -1,31 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import './styles/index.css';
 
-import App from './App.js';
-import Contact_ from './Contact.js';
-import Men_ from './Men.js';
-import Women_ from  './Women.js'
-import Profile_ from './profile-page/Profile';
-import Price_ from './Price';
+
+import App from './App';
+import Contact from './components/Contact';
+import Men from './components/Men';
+import Women from  './components/Women'
+import Profile from './profile-page/Profile';
+import Price from './components/Price';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-
-      <Route path='/' element={<App />}></Route>
-      <Route path='/contact' element={<Contact_ />}></Route>
-      <Route path='/men' element={<Men_ />}></Route>
-      <Route path='/women' element={<Women_ />}></Route>
-      <Route path='/profile/auth' element={<Profile_ />}></Route>
-      <Route path='/price' element={<Price_ />}></Route>
+      <Routes>
+        <Route path='/' element={<App />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/men' element={<Men />}/>
+        <Route path='/women' element={<Women />}/>
+        <Route path='/profile/auth' element={<Profile />}/>
+        <Route path='/price' element={<Price />}/>
       
-    </Routes>
+      </Routes>
     </BrowserRouter>
 
   </React.StrictMode>

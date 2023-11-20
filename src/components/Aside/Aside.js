@@ -1,6 +1,6 @@
 import './Aside.css'
 
-let Aside_ = () => {
+let Aside = () => {
     return (
         <div className='product-navigation-list'>
             <div className='filter-panel'>
@@ -66,4 +66,4 @@ let Aside_ = () => {
     );
 }
 
-export default Aside_;
+export default Aside;

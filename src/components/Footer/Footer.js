@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
 import './Footer.css'
 import iconInstagram from './socialMedia/instagram.png'
-let Footer_ = () => {
+import MyButton from '../UI/buttons/MyButton';
+let Footer = () => {
     return (
         <footer className='footer'>
             <div>
@@ -17,9 +19,11 @@ let Footer_ = () => {
                         </div>
 
                         <form className='question-form'>
+                            
                             <input type = "text" placeholder = "Name"></input>
                             <input type = "text" placeholder='Email'></input>
                             <input type = "text" placeholder='Message'></input>
+                            <MyButton children={"button"}/>
                             <button>Submit</button>
                         </form>
                     </div>
@@ -30,20 +34,20 @@ let Footer_ = () => {
                     Social Media
                 </h3>
                 <div className='footer-icon-wrapper'>
-                    <a href='#'>
-                        <img src={iconInstagram} className='icon-instagram' />
+                    <a href='/'>
+                        <img src={iconInstagram} className='icon-instagram' alt=""/>
                     </a>
-                    <a href='#'>
-                        <img src={iconInstagram} className='icon-instagram' />
+                    <a href='/'>
+                        <img src={iconInstagram} className='icon-instagram' alt=""/>
                     </a>
-                    <a href='#'>
-                        <img src={iconInstagram} className='icon-instagram' />
+                    <a href='/'>
+                        <img src={iconInstagram} className='icon-instagram' alt=""/>
                     </a>
-                    <a href='#'>
-                        <img src={iconInstagram} className='icon-instagram' />
+                    <a href='/'>
+                        <img src={iconInstagram} className='icon-instagram' alt=""/>
                     </a>
-                    <a href='#'>
-                        <img src={iconInstagram} className='icon-instagram' />
+                    <a href='/'>
+                        <img src={iconInstagram} className='icon-instagram' alt=""/>
                     </a>
                 </div>
 
@@ -86,4 +90,4 @@ let Footer_ = () => {
     );
 }
 
-export default Footer_;
+export default Footer;

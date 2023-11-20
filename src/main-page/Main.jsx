@@ -7,7 +7,7 @@ import collectionImg3 from './images/Collection-3.jpg'
 import collectionImg4 from './images/Collection-4.jpg'
 import collectionImg5 from './images/Collection-5.jpg'
 
-let Main_ = () => {
+let Main = () => {
     return (
         <main className='main-content'>
             <div className='main-container'>
@@ -67,4 +67,4 @@ let Main_ = () => {
     );
 }
 
-export default Main_;
+export default Main;

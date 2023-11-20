@@ -1,6 +1,6 @@
 import './Main_contact.css'
 
-let Main_contact = () =>{
+let MainContact = () =>{
     return(
         <main className='main-content'>
             <div className='main-container'>
@@ -41,4 +41,4 @@ let Main_contact = () =>{
     );
 }
 
-export default Main_contact;
+export default MainContact;

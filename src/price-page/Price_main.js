@@ -1,7 +1,7 @@
 import './Price_main.css'
 import img from '../men-page/images/product1.jpg'
 
-let Price_main_ = () => {
+let PriceMain = () => {
     return(
         <main className="main-content">
             <div className="main-container">
@@ -13,7 +13,7 @@ let Price_main_ = () => {
 
                         <div className="detail-content">
                             <div className="detail-img-wrapper">
-                                <img src={img} className="detail-img"></img>
+                                <img src={ img } className="detail-img"></img>
 
                             </div>
                             
@@ -64,4 +64,4 @@ let Price_main_ = () => {
     );
 }
 
-export default Price_main_;
+export default PriceMain;

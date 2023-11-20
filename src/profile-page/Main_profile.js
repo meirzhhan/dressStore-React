@@ -1,6 +1,7 @@
+import MyButton from '../components/UI/buttons/MyButton';
 import './Main_profile.css'
 
-let Main_profile_ = (props) => {
+let MainProfile = (props) => {
     return(
         <main className="main-content">
             <div className="main-container">
@@ -25,9 +26,7 @@ let Main_profile_ = (props) => {
                             Forgot password
                         </p>
                         <div>
-                            <button className='profile-menu-button'>
-                                Sign in
-                            </button>
+                            <MyButton>Sign in</MyButton>
                         </div>
                         
                         
@@ -49,4 +48,4 @@ let Main_profile_ = (props) => {
     );
 }
 
-export default Main_profile_;
+export default MainProfile;

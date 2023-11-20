@@ -1,17 +1,17 @@
 import './Women_main.css'
 
-import Aside_ from '../components/Aside/Aside'
+import Aside from '../components/Aside/Aside'
 
 import WomenProducts from './Products/Women_products'
 
-let Women_main_ = () => {
+let WomenMain = () => {
     return (
         <main className="main-content">
             <div className="main-container">
                 <div className='product-container'>
                     <div className='product-wrapper'>
                         
-                        <Aside_ />
+                        <Aside />
 
                         <ul className='product-list'>
                             <WomenProducts />
@@ -55,4 +55,4 @@ let Women_main_ = () => {
     );
 }
 
-export default Women_main_;
+export default WomenMain;
